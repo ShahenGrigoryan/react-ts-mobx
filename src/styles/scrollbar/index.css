@@ -1,0 +1,15 @@
+.scroll_thumb {
+  width: 23px !important;
+  background-color: #C4C4C4; }
+  @media screen and (max-width: 430px) {
+    .scroll_thumb {
+      width: 5px !important; } }
+
+.scroll_truck {
+  height: 100%;
+  width: 23px !important;
+  background-color: #F2CBBF;
+  right: 0; }
+  @media screen and (max-width: 430px) {
+    .scroll_truck {
+      width: 5px !important; } }

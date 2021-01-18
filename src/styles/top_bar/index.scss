@@ -1,0 +1,73 @@
+$activeTextColor:#8964D7;
+$inactiveTextColor:#CBB1A2;
+
+.top_bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 5vh;
+  padding: 0 5.7%;
+  .page_title {
+    color: #000;
+    font-size: 48px;
+    margin-right: 15px;
+    @media screen and (max-width: 960px) {
+      font-size: 32px;
+    }
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+
+    .menu_link {
+      font-weight: bold;
+      font-size: 24px;
+      color: $inactiveTextColor;
+      margin-right: 48px;
+      @media screen and (max-width: 960px) {
+        font-size: 18px;
+        margin-right: 32px;
+      }
+      @media screen and (max-width: 430px) {
+        font-size: 16px;
+        margin-right: 16px;
+      }
+      cursor: pointer;
+      position: relative;
+      transition: .2s ease-in;
+      &:hover{
+        color: lighten($activeTextColor,10%)
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &.active {
+        color: $activeTextColor
+      }
+
+      .underline_container {
+        position: absolute;
+        width: 100%;
+        bottom: -13px;
+        .underline {
+          width: 24px;
+          height: 2px;
+          background-color: $activeTextColor;
+          margin: 13px auto 0;
+          border: none;
+          opacity: 0;
+          transition: .2s ease-in;
+          &.active{
+            opacity: 1;
+          }
+
+        }
+      }
+
+    }
+
+  }
+}

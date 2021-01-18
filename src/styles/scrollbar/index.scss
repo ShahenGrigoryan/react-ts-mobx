@@ -1,0 +1,19 @@
+$scrollbarBackgroundColor:#F2CBBF;
+$scrollbarHandleColor:#C4C4C4;
+
+.scroll_thumb{
+  width: 23px!important;
+  background-color: $scrollbarHandleColor;
+  @media screen and (max-width: 430px) {
+    width: 5px!important;
+  }
+}
+.scroll_truck{
+  height: 100%;
+  width: 23px!important;
+  background-color: $scrollbarBackgroundColor;
+  right: 0;
+  @media screen and (max-width: 430px) {
+    width: 5px!important;
+  }
+}

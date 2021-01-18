@@ -1,0 +1,35 @@
+$mainBackgroundColor:#FFF4EE;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Montserrat;
+  background-color: $mainBackgroundColor;
+  overflow: hidden;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  width: 100%;
+.content{
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  .scroll_wrapper{
+    flex:7;
+  }
+}
+}
+
+
+
+@import "card/index.scss","scrollbar/index.scss","sidebar/index.scss","top_bar/index.scss";
+
+
+

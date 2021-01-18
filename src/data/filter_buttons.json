@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "All",
+    "accessor":"all"
+  },
+  {
+    "id": 2,
+    "name": "Popular",
+    "accessor":"popular"
+  },
+  {
+    "id": 3,
+    "name": "Favorite",
+    "accessor": "favorite"
+  },
+  {
+    "id": 4,
+    "name": "New",
+    "accessor": "new"
+  }
+]

@@ -1,0 +1,56 @@
+$sidebarBackgroundColor:#FFE4D6;
+
+.sidebar {
+  height: 100vh;
+  padding-top: 12.7vh;
+  width: 160px;
+  @media screen and (max-width: 1359px){
+    width: 120px;
+  }
+  @media screen and (max-width: 960px) {
+    width: 100px;
+  }
+  @media screen and (max-width: 530px) {
+    width: 60px;
+  }
+  flex: 1;
+  background-color: $sidebarBackgroundColor;
+  .sidebar_menu_link{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 71px;
+    border-left: 3px solid transparent;
+    @media screen and (max-width: 430px) {
+      margin-bottom: 32px;
+    }
+    &.active{
+      border-left: 3px solid #8964D7;
+    }
+    &.active svg path{
+      fill: #8964D7;
+    }
+    & svg{
+      cursor: pointer;
+      width: 48px;
+      height: 48px;
+      @media screen and (max-width: 960px) {
+        width: 32px;
+        height: 32px;
+      }
+      @media screen and (max-width: 430px) {
+        width: 26px;
+        height: 26px;
+      }
+      & path{
+        fill: #E1AA98;
+      }
+    }
+
+  }
+  & svg{
+    max-width: 48px;
+    margin: auto;
+  }
+}

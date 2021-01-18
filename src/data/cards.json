@@ -1,0 +1,41 @@
+[
+  {
+    "id":1,
+    "title":"Illustration",
+    "lessons_count":24,
+    "time":136,
+    "background":"banana_bg",
+    "views_count":800,
+    "created_at":"2020-11-30T20:00:00.000Z",
+    "isFavorite":false
+  },
+  {
+    "id":2,
+    "title":"Graphic design",
+    "lessons_count":18,
+    "time":105,
+    "background":"building_bg",
+    "views_count":1640,
+    "created_at":"2021-01-09T20:00:00.000Z",
+    "isFavorite":true
+  },
+  {
+    "id":3,
+    "title":"Marketing",
+    "lessons_count":35,
+    "time":204,
+    "background":"marketing_bg",
+    "views_count": 2124,
+    "created_at":"2021-01-09T20:00:00.000Z"
+  },
+  {
+    "id":4,
+    "title":"Programming",
+    "lessons_count":132,
+    "time":351,
+    "background":"programming_bg",
+    "views_count": 2991,
+    "created_at":"2021-01-12T20:00:00.000Z",
+    "isFavorite":true
+  }
+]
